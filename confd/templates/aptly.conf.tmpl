@@ -1,0 +1,15 @@
+{
+  "architectures": {{ getenv "ARCHITECTURES" }},
+  "dependencyFollowAllVariants": {{ getenv "DEPENDENCY_FOLLOW_ALL_VARIANTS" }},
+  "dependencyFollowRecommends": {{ getenv "DEPENDENCY_FOLLOW_RECOMMENDS" }},
+  "dependencyFollowSource": {{ getenv "DEPENDENCY_FOLLOW_SOURCE" }},
+  "dependencyFollowSuggests": {{ getenv "DEPENDENCY_FOLLOW_SUGGESTS" }},
+  "downloadConcurrency": {{ getenv "DOWNLOAD_CONCURRENCY" }},
+  "downloadSourcePackages": {{ getenv "DOWNLOAD_SOURCE_PACKAGES" }},
+  "gpgDisableSign": {{ getenv "GPG_DISABLE_SIGN" }},
+  "gpgDisableVerify": {{ getenv "GPG_DISABLE_VERIFY" }},
+  "ppaCodename": "{{ getenv "PPA_CODENAME" }}",
+  "ppaDistributorID": "{{ getenv "PPA_DISTRIBUTOR_ID" }}",
+  "rootDir": "{{ getenv "ROOT_DIR" }}",
+  "S3PublishEndpoints": {{ getenv "S3_PUBLISH_ENDPOINTS" }}
+}
